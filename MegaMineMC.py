@@ -4,6 +4,7 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 import time
 import random
+import os
 
 
 Client = commands.Bot(command_prefix = "+")
@@ -127,4 +128,4 @@ async def removewarn(ctx, member: discord.Member):
         await Client.remove_roles(member, role)
 
 
-Client.run("NDU5NDkwMzkxMTQ2NjI3MDcz.Dg29_w.dxSVxwf0G-iJlCzckdcVlItfCu8")
+Client.run(os.getenv("TOKEN"))
