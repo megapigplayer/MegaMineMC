@@ -35,6 +35,7 @@ async def say(output):
 async def serverinfo():
         embed = discord.Embed(title="Bot Information", description="""
 __hello! im MegaMineBot!__
+
 ```Welcome to the server: MegaMineMC!```
 **here you can play with players minecraft!
 and every week we play all server in map or special game!
