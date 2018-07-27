@@ -50,11 +50,11 @@ have fun here! for more info ask the support rank!**
 async def help():
         embed = discord.Embed(title="Command List", description="""
 __**MegaMineBot Commands list**__
-`.help` - this page.
-`.serverinfo` **- the info of the server.**
-`.servericon` **- the server icon.**
-`.membericon @TAG` **- the avatar of the member you write.**
-`.say (what you want)` **- the bot say what you want.**
+`!help` - this page.
+`!serverinfo` **- the info of the server.**
+`!servericon` **- the server icon.**
+`!membericon @TAG` **- the avatar of the member you write.**
+`!say (what you want)` **- the bot say what you want.**
 """, color=0xe88af4)
         await Client.say(embed=embed)
 
