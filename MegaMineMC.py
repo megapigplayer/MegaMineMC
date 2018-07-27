@@ -32,6 +32,17 @@ async def say(output):
     await Client.say(output)
 
 @Client.command()
+async def ip():
+    await Client.say("""
+__The Games Server Ip:__
+**COMING SOON!**
+__The SMP Server Ip:__
+**comet.freemcserver.net:26489**
+`for be in the whitelist smp server ask the owner!`
+    """)
+
+
+@Client.command()
 async def serverinfo():
         embed = discord.Embed(title="Bot Information", description="""
 __hello! im MegaMineBot!__
