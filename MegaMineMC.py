@@ -36,10 +36,10 @@ async def ip():
     await Client.say("""
 __The Games Server Ip:__
 **COMING SOON!**
-__The SMP Server Ip:__
-**comet.freemcserver.net:26489**
-`for be in the whitelist smp server ask the owner!`
-    """)
+__The City/SMP Server Ip:__
+**COMING SOON!**
+**for joim to the city server see- #city-announcements **
+""")
 
 
 @Client.command()
@@ -62,10 +62,11 @@ have fun here! for more info ask the support rank!**
 async def help():
         embed = discord.Embed(title="Command List", description="""
 __**MegaMineBot Commands list**__
-`!help` - this page.
+`!help` - **this page.**
 `!serverinfo` **- the info of the server.**
 `!servericon` **- the server icon.**
 `!membericon @TAG` **- the avatar of the member you write.**
+`!ip` - **the games server ip and the city.**
 `!say (what you want)` **- the bot say what you want.**
 """, color=0xe88af4)
         await Client.say(embed=embed)
