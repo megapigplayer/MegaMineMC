@@ -73,7 +73,7 @@ __**MegaMineBot Commands list**__
 	
 @Client.command(pass_context = True)
 async def freeze(ctx, member: discord.Member):
-     if ctx.message.author.server_permissions.view_audit_log or ctx.message.author.id == '194151340090327041':
+     if ctx.message.author.server_permissions.manage_server or ctx.message.author.id == '194151340090327041':
         role = discord.utils.get(member.server.roles, name='FREEZE')
         await Client.add_roles(member, role)
         embed=discord.Embed(title="User Is Been Freeze!", description="**{0}** was been freeze by **{1}**!".format(member, ctx.message.author), color=0xff00f6)
@@ -84,7 +84,7 @@ async def freeze(ctx, member: discord.Member):
 	
 @Client.command(pass_context = True)
 async def unfreeze(ctx, member: discord.Member):
-     if ctx.message.author.server_permissions.view_audit_log or ctx.message.author.id == '194151340090327041':
+     if ctx.message.author.server_permissions.manage_server or ctx.message.author.id == '194151340090327041':
         role = discord.utils.get(member.server.roles, name='FREEZE')
         await Client.remove_roles(member, role)
         embed=discord.Embed(title="User Is Been UnFreeze!", description="**{0}** was been unfreeze by **{1}**!".format(member, ctx.message.author), color=0xff00f6)
