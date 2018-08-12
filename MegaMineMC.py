@@ -38,7 +38,7 @@ __The Games Server Ip:__
 **COMING SOON!**
 __The City/SMP Server Ip:__
 **COMING SOON!**
-**for joim to the city server see- #city-announcements **
+**for join to the city server see- ** #city-announcements
 """)
 
 
