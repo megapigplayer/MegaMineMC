@@ -14,7 +14,7 @@ owner = ["Insert-Owner-ID"]
 
 @Client.event
 async def on_ready():
-    print("Bot Is ready!")
+    print(".Bot Is ready!")
     await Client.change_status(game=discord.Game(name="!help | MegaMineBot"))
 	
 @Client.command(pass_context=True, no_pm=True)
