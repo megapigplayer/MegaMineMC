@@ -38,6 +38,7 @@ __The Games Server Ip:__
 **COMING SOON!**
 __The City Server Ip:__
 **MegaMineCity.serv.gs**
+
 **for join to the city server see- ** #city-announcements
 """)
 
