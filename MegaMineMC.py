@@ -49,12 +49,13 @@ __hello! im MegaMineBot!__
 
 ```Welcome to the server: MegaMineMC!```
 **here you can play with players minecraft!
+and play in the games server: MegaMineMC (!ip)
 and every week we play all server in map or special game!
 like big uhc or cool mini game and more!
 you can join too the smp server!- MegaMine City!
-by ask the owner MegaPig and write your name in #minecraft-names !
-have fun here! for more info ask the support rank!**
-`XbotByMegaPigX`
+by do apply in #join-to-the-city.
+have fun here! for more info ask the staff they here to help you!**
+`botByMegaPig`
 """, color=0xe88af4)
         await Client.say(embed=embed)
 
@@ -70,7 +71,18 @@ __**MegaMineBot Commands list**__
 `!say (what you want)` **- the bot say what you want.**
 """, color=0xe88af4)
         await Client.say(embed=embed)
+
 	
+@Client.command()
+async def help():
+        embed = discord.Embed(title="Command List", description="""
+__**MegaMineMC**__
+**For command list select your language you want the command list:**
+For English write: !ehelp
+בשביל עברית תכתוב: !hhelp
+""", color=0xe88af4)
+        await Client.say(embed=embed)
+
 @Client.command(pass_context = True)
 async def freeze(ctx, member: discord.Member):
      if ctx.message.author.server_permissions.manage_server or ctx.message.author.id == '194151340090327041':
