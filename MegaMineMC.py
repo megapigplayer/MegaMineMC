@@ -63,23 +63,41 @@ have fun here! for more info ask the staff they here to help you!**
 async def ehelp():
         embed = discord.Embed(title="Command List", description="""
 __**MegaMineBot Commands list**__
-`!help` - **this page.**
+`!help` - **the main help command.**
 `!serverinfo` **- the info of the server.**
 `!servericon` **- the server icon.**
-`!membericon @TAG` **- the avatar of the member you write.**
-`!ip` - **the games server ip and the city.**
+`!membericon @TAG` **- the avatar of the member you tag.**
+`!ip` - **the games server ip, and the city ip.**
 `!say (what you want)` **- the bot say what you want.**
 """, color=0xe88af4)
         await Client.say(embed=embed)
 
+@Client.command()
+async def hhelp():
+        embed = discord.Embed(title="Command List", description="""
+__**מגהמיין בוט רשימת פקודות**__
+`!help` **- הפקודת עזרה הראשית**
+`!serverinfo` **- פקודת מידע על השרת**
+`!servericon` **- תמונת השרת**
+`!membericon @TAG` **- התמונה של השחקן שאתה מתייג**
+`!ip` - **האיפי של שרת המשחקים ושל שרת העיר**
+`!say (what do you want) **- הבוט אומר מה שאתה אומר לו**
+""", color=0xe88af4)
+        await Client.say(embed=embed)
 	
 @Client.command()
 async def help():
         embed = discord.Embed(title="Command List", description="""
-__**MegaMineMC**__
-**For command list select your language you want the command list:**
-For English write: !ehelp
-בשביל עברית תכתוב: !hhelp
+__**MegaMineMC - MegaMineBot**__
+__For commands list select your language you want the command list:
+בשביל רשימת פקודות בחדר את השפה שאתה רוצה בה את הרשימת פקודות:__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**For English write:**
+`!ehelp`
+
+**בשביל עברית תכתוב:**
+`!hhelp`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """, color=0xe88af4)
         await Client.say(embed=embed)
 
