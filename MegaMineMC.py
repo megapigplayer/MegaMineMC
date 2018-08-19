@@ -37,7 +37,7 @@ async def ip():
 __The Games Server Ip:__
 **COMING SOON!**
 __The City Server Ip:__
-**COMING SOON!**
+**MegaMineCity.serv.gs**
 **for join to the city server see- ** #city-announcements
 """)
 
