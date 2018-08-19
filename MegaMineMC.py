@@ -89,13 +89,14 @@ __**מגהמיין בוט רשימת פקודות**__
 async def help():
         embed = discord.Embed(title="Command List", description="""
 __**MegaMineMC - MegaMineBot**__
+
 __For commands list select your language you want the command list:
 בשביל רשימת פקודות בחדר את השפה שאתה רוצה בה את הרשימת פקודות:__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**For English write:**
+For English write:
 `!ehelp`
 
-**בשביל עברית תכתוב:**
+בשביל עברית תכתוב:
 `!hhelp`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """, color=0xe88af4)
