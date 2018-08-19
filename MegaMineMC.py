@@ -93,13 +93,13 @@ __**MegaMineMC - MegaMineBot**__
 For commands list select your language you want the command list:
 בשביל רשימת פקודות בחדר את השפה שאתה רוצה בה את הרשימת פקודות:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===================
 For English write:
 `!ehelp`
 
 בשביל עברית תכתוב:
 `!hhelp`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===================
 """, color=0xe88af4)
         await Client.say(embed=embed)
 
