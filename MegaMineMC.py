@@ -63,6 +63,7 @@ have fun here! for more info ask the staff they here to help you!**
 async def ehelp():
         embed = discord.Embed(title="Command List", description="""
 __**MegaMineBot Commands list**__
+
 `!help` - **the main help command.**
 `!serverinfo` **- the info of the server.**
 `!servericon` **- the server icon.**
@@ -76,6 +77,7 @@ __**MegaMineBot Commands list**__
 async def hhelp():
         embed = discord.Embed(title="רשימת פקודות", description="""
 __**מגהמיין בוט רשימת פקודות**__
+
 `!help` **- הפקודת עזרה הראשית**
 `!serverinfo` **- פקודת מידע על השרת**
 `!servericon` **- תמונת השרת**
