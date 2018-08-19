@@ -36,7 +36,7 @@ async def ip():
     await Client.say("""
 __The Games Server Ip:__
 **COMING SOON!**
-__The City/SMP Server Ip:__
+__The City Server Ip:__
 **COMING SOON!**
 **for join to the city server see- ** #city-announcements
 """)
