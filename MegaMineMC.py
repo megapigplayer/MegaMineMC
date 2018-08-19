@@ -60,7 +60,7 @@ have fun here! for more info ask the staff they here to help you!**
         await Client.say(embed=embed)
 
 @Client.command()
-async def help():
+async def ehelp():
         embed = discord.Embed(title="Command List", description="""
 __**MegaMineBot Commands list**__
 `!help` - **this page.**
