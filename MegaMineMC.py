@@ -34,18 +34,36 @@ async def say(output):
 @Client.command()
 async def ip():
     await Client.say("""
+```MegaMineMC Servers IP:```
+
 __The Games Server Ip:__
 **COMING SOON!**
+
 __The City Server Ip:__
 **MegaMineCity.serv.gs**
 
 **for join to the city server see- ** #city-announcements
 """)
 
+@Client.command()
+async def hip():
+    await Client.say("""
+```מגהמיין אמסי סרברים איפי:```
+
+__איפי שרת המשחקים:__
+**בקרוב**
+
+__איפי שרת העיר:__
+**MegaMineCity.serv.gs**
+
+**בשביל להיכנס לשרת העיר תראו ב- ** #city-announcements
+""")
+
+
 
 @Client.command()
-async def serverinfo():
-        embed = discord.Embed(title="Bot Information", description="""
+async def eserverinfo():
+        embed = discord.Embed(title="Server Information", description="""
 __hello! im MegaMineBot!__
 
 ```Welcome to the server: MegaMineMC!```
@@ -62,8 +80,8 @@ have fun here! for more info ask the staff they here to help you!**
 
 @Client.command()
 async def hserverinfo():
-        embed = discord.Embed(title="Bot Information", description="""
-__hello! im MegaMineBot!__
+        embed = discord.Embed(title="מידע על השרת", description="""
+__שלום! אני מגהמיין סיטי בוט!__
 
 ```ברוכים הבאים לשרת - מגהמיין אמסי!```
 **כאן תוכלו לשחק עם שחקנים ישראלים מיינקראפט!
@@ -84,7 +102,7 @@ async def ehelp():
 __**MegaMineBot Commands list**__
 
 `!help` - **the main help command.**
-`!serverinfo` **- the info of the server.**
+`!eserverinfo` **- the info of the server.**
 `!servericon` **- the server icon.**
 `!membericon @TAG` **- the avatar of the member you tag.**
 `!ip` - **the games server ip, and the city ip.**
