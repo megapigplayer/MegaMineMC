@@ -61,6 +61,24 @@ have fun here! for more info ask the staff they here to help you!**
         await Client.say(embed=embed)
 
 @Client.command()
+async def מידע():
+        embed = discord.Embed(title="Bot Information", description="""
+__hello! im MegaMineBot!__
+
+```ברוכים הבאים לשרת - מגהמיין אמסי!```
+**כאן תוכלו לשחק עם שחקנים ישראלים מיינקראפט!
+ולשחק בשרת המשחקים שלנו - מגהמיין אמסי תוכלו לראות את
+האיפי עם הפקודה (!איפי)י
+וכל שבוע אנחנו משחקים במפות או משחקים מיוחדים
+כמו שרת אולטרהארדכורד או סתם משחקים מיוחדים שיצרנו
+אתם יכולים גם להיצטרף לשרת העיר
+תעשו אפלי בחדר- #join-to-the-city
+מקווה שתהנו בשרת! לעוד מידע ועזרה אחת יכולים לפנות לצוות השרת!**
+`botByMegaPig`
+""", color=0xe88af4)
+        await Client.say(embed=embed)
+
+@Client.command()
 async def ehelp():
         embed = discord.Embed(title="Command List", description="""
 __**MegaMineBot Commands list**__
@@ -80,7 +98,7 @@ async def hhelp():
 __**מגהמיין בוט רשימת פקודות**__
 
 `!help` **- הפקודת עזרה הראשית**
-`!serverinfo` **- פקודת מידע על השרת**
+`!מידע -**פקודת מידע על השרת**
 `!servericon` **- תמונת השרת**
 `!membericon @TAG` **- התמונה של השחקן שאתה מתייג**
 `!ip` - **האיפי של שרת המשחקים ושל שרת העיר**
