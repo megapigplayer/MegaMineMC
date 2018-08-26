@@ -61,7 +61,7 @@ have fun here! for more info ask the staff they here to help you!**
         await Client.say(embed=embed)
 
 @Client.command()
-async def מידע():
+async def hserverinfo():
         embed = discord.Embed(title="Bot Information", description="""
 __hello! im MegaMineBot!__
 
@@ -98,7 +98,7 @@ async def hhelp():
 __**מגהמיין בוט רשימת פקודות**__
 
 `!help` **- הפקודת עזרה הראשית**
-`!מידע -**פקודת מידע על השרת**
+`!hserverinfo` **- פקודת מידע על השרת**
 `!servericon` **- תמונת השרת**
 `!membericon @TAG` **- התמונה של השחקן שאתה מתייג**
 `!ip` - **האיפי של שרת המשחקים ושל שרת העיר**
