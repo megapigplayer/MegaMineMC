@@ -37,10 +37,12 @@ async def ip():
 ```MegaMineMC Servers IP:```
 
 __The Games Server Ip:__
-**COMING SOON!**
+**MegaMineMC.mcserv.pro**
+1.9 - 1.13
 
 __The City Server Ip:__
 **MegaMineCity.serv.gs**
+1.12
 
 **for join to the city server see- ** #city-announcements
 """)
@@ -51,10 +53,12 @@ async def hip():
 ```מגהמיין אמסי סרברים איפי:```
 
 __איפי שרת המשחקים:__
-**בקרוב**
+**MegaMineMC.mcserv.pro**
+1.9 - 1.13
 
 __איפי שרת העיר:__
 **MegaMineCity.serv.gs**
+1.12
 
 **בשביל להיכנס לשרת העיר תראו ב- ** #city-announcements
 """)
