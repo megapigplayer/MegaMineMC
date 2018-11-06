@@ -35,14 +35,13 @@ async def say(output):
 async def ip():
     await Client.say("""
 ```MegaMineMC Servers IP:```
+```The Games Server Ip:```
+- **MegaMineMC.mcserv.pro**
+- __Verison:__ `1.9 - 1.13`
 
-__The Games Server Ip:__
-**MegaMineMC.mcserv.pro**
-1.9 - 1.13
-
-__The City Server Ip:__
-**MegaMineCity.serv.gs**
-1.12
+```The City Server Ip:```
+- **OFFLINE**
+- __Verison:__ `1.13`
 
 **for join to the city server see- ** #city-announcements
 """)
