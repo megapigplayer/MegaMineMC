@@ -40,7 +40,7 @@ async def ip():
 - __Verison:__ `1.9 - 1.13`
 
 ```The City Server Ip:```
-- **OFFLINE**
+- **MegaMineCity.serv.nu**
 - __Verison:__ `1.13`
 
 **for join to the city server see- ** #city-announcements
